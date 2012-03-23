@@ -12,5 +12,6 @@
 @interface PersonDetailViewController : UIViewController
 
 @property (strong, nonatomic) Person *person;
+@property (strong, nonatomic) UIWebView *contentView;
 
 @end

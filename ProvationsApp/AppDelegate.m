@@ -34,7 +34,7 @@
     
     // Create ViewControllers
     UIViewController *aboutViewController, *clientsViewController, *contactViewController;
-    PersonTableViewController *personTableViewController;
+    PersonTableViewController *personTableViewController = [[PersonTableViewController alloc] init];
     UINavigationController *staffViewController;
     
     
@@ -50,6 +50,7 @@
         clientsViewController = [[ClientsViewController alloc] initWithNibName:@"ClientsViewController_iPad" bundle:nil];
         staffViewController = [[UINavigationController alloc] initWithRootViewController:personTableViewController];
         contactViewController = [[ContactViewController alloc] initWithNibName:@"ContactViewController_iPad" bundle: nil];    }
+    
     
     // Create tabBarController and set its view Controllers
     self.tabBarController = [[UITabBarController alloc] init];

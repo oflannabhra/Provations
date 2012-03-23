@@ -22,6 +22,10 @@
 {
     self = [super initWithStyle:style];
     if (self) {
+        // set tab bar items
+        self.title = @"Staff";
+        
+        self.people = [[NSMutableArray alloc] init];
         // Custom initialization
         // Read in Data from plist, put it in an array, and make it available to subviews
         
@@ -35,13 +39,15 @@
         
         // convert data[] to Persons in people[]
         
-        for (int j = 0; j < data.count; j++) {
+        for (int j = 0; j < names.count; j++) {
             
-            [self.people addObject:[[Person alloc] initWithName:[names objectAtIndex:j]
-                                                  andTitle:[titles objectAtIndex:j]
-                                                    andBio:[bios objectAtIndex:j]]];
-            Person *temp = [people objectAtIndex:j];
-            NSLog(@"%@", temp.name);
+            Person *temp = [[Person alloc] initWithName:[names objectAtIndex:j]
+        andTitle:[titles objectAtIndex:j]
+        andBio:[bios objectAtIndex:j]];
+
+            
+            [self.people addObject:temp];
+            NSLog(@"%@, %d", temp.name, self.people.count);
         }
     }  
     return self;
@@ -52,7 +58,7 @@
     [super viewDidLoad];
 
     // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    //self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -74,16 +80,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return people.count;
+    return [people count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -101,7 +105,11 @@
     cell.detailTextLabel.text = temp.title;
     
     // take the name, cut off last name, and lowercase it
-    cell.imageView.image = [UIImage imageWithContentsOfFile:[[[[temp.name componentsSeparatedByString:@" "] objectAtIndex:0] lowercaseString] stringByAppendingString:@"_thumb.png"]];
+    
+    NSString *imageName = [[[[temp.name componentsSeparatedByString:@" "] objectAtIndex:0] lowercaseString] stringByAppendingString:@"_thumb.png"];
+    
+    cell.imageView.image = [UIImage imageNamed:imageName];
+    NSLog(@"%@", imageName);
     
     
     return cell;
@@ -151,13 +159,20 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
-
-      PersonDetailViewController *personViewController = [[PersonDetailViewController alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
     
-    personViewController.person = [self.people objectAtIndex:[indexPath row]];
+    PersonDetailViewController *personDetailViewController;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        personDetailViewController = [[PersonDetailViewController alloc] initWithNibName:@"PersonDetailViewController_iPhone" bundle:nil];
+    } 
+    else {
+        personDetailViewController = [[PersonDetailViewController alloc] initWithNibName:@"PersonDetailViewController_iPad" bundle:nil];
+    }    
+
+    personDetailViewController.person = [self.people objectAtIndex:[indexPath row]];
+    personDetailViewController.title = personDetailViewController.person.name;
      // ...
      // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:personViewController animated:YES];
+     [self.navigationController pushViewController:personDetailViewController animated:YES];
 }
 
 @end
