@@ -8,9 +8,15 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
+#import "AboutViewController.h"
 
-#import "SecondViewController.h"
+#import "ClientsViewController.h"
+
+#import "PersonTableViewController.h"
+
+#import "ContactViewController.h"
+
+#import "Person.h"
 
 @implementation AppDelegate
 
@@ -19,18 +25,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
+    
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
+    
+    // Create ViewControllers
+    UIViewController *aboutViewController, *clientsViewController, *contactViewController;
+    PersonTableViewController *personTableViewController;
+    UINavigationController *staffViewController;
+    
+    
+    // Handle Different Devices
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil];
+        aboutViewController = [[AboutViewController alloc] initWithNibName:@"AboutViewController_iPhone" bundle:nil];
+        clientsViewController = [[ClientsViewController alloc] initWithNibName:@"ClientsViewController_iPhone" bundle:nil];
+        staffViewController = [[UINavigationController alloc] initWithRootViewController:personTableViewController];
+        contactViewController = [[ContactViewController alloc] initWithNibName:@"ContactViewController_iPhone" bundle: nil];
+        
     } else {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil];
-    }
+        aboutViewController = [[AboutViewController alloc] initWithNibName:@"AboutViewController_iPad" bundle:nil];
+        clientsViewController = [[ClientsViewController alloc] initWithNibName:@"ClientsViewController_iPad" bundle:nil];
+        staffViewController = [[UINavigationController alloc] initWithRootViewController:personTableViewController];
+        contactViewController = [[ContactViewController alloc] initWithNibName:@"ContactViewController_iPad" bundle: nil];    }
+    
+    // Create tabBarController and set its view Controllers
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:  aboutViewController, 
+                                                                        clientsViewController, 
+                                                                        staffViewController, 
+                                                                        contactViewController, 
+                                                                        nil];
+    
+    // Set tabBarController as RootViewController
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

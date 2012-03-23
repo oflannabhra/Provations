@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3329FC84151C0D3700DA6591 /* PersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3329FC83151C0D3700DA6591 /* PersonTableViewController.m */; };
+		3329FC8B151C222800DA6591 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3329FC89151C222800DA6591 /* PersonDetailViewController.m */; };
+		3329FC8C151C222800DA6591 /* PersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3329FC8A151C222800DA6591 /* PersonDetailViewController.xib */; };
+		3358F6F614F44A1100A4E351 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358F6F514F44A1100A4E351 /* Person.m */; };
 		338299AB14F2B736002CA452 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AA14F2B736002CA452 /* UIKit.framework */; };
 		338299AD14F2B736002CA452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AC14F2B736002CA452 /* Foundation.framework */; };
 		338299AF14F2B736002CA452 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AE14F2B736002CA452 /* CoreGraphics.framework */; };
 		338299B514F2B736002CA452 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 338299B314F2B736002CA452 /* InfoPlist.strings */; };
 		338299B714F2B736002CA452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299B614F2B736002CA452 /* main.m */; };
 		338299BB14F2B736002CA452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299BA14F2B736002CA452 /* AppDelegate.m */; };
-		338299BE14F2B736002CA452 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299BD14F2B736002CA452 /* FirstViewController.m */; };
-		338299C014F2B736002CA452 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299BF14F2B736002CA452 /* first.png */; };
-		338299C214F2B736002CA452 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C114F2B736002CA452 /* first@2x.png */; };
-		338299C514F2B736002CA452 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299C414F2B736002CA452 /* SecondViewController.m */; };
-		338299C714F2B736002CA452 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C614F2B736002CA452 /* second.png */; };
-		338299C914F2B736002CA452 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C814F2B736002CA452 /* second@2x.png */; };
-		338299CC14F2B736002CA452 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299CA14F2B736002CA452 /* FirstViewController_iPhone.xib */; };
-		338299CF14F2B736002CA452 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299CD14F2B736002CA452 /* FirstViewController_iPad.xib */; };
-		338299D214F2B736002CA452 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299D014F2B736002CA452 /* SecondViewController_iPhone.xib */; };
-		338299D514F2B736002CA452 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299D314F2B736002CA452 /* SecondViewController_iPad.xib */; };
+		338299BE14F2B736002CA452 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299BD14F2B736002CA452 /* AboutViewController.m */; };
+		338299C014F2B736002CA452 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299BF14F2B736002CA452 /* about.png */; };
+		338299C214F2B736002CA452 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C114F2B736002CA452 /* about@2x.png */; };
+		338299C514F2B736002CA452 /* ClientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299C414F2B736002CA452 /* ClientsViewController.m */; };
+		338299C714F2B736002CA452 /* clients.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C614F2B736002CA452 /* clients.png */; };
+		338299C914F2B736002CA452 /* clients@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C814F2B736002CA452 /* clients@2x.png */; };
+		338299CC14F2B736002CA452 /* AboutViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299CA14F2B736002CA452 /* AboutViewController_iPhone.xib */; };
+		338299CF14F2B736002CA452 /* AboutViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299CD14F2B736002CA452 /* AboutViewController_iPad.xib */; };
+		338299D214F2B736002CA452 /* ClientsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299D014F2B736002CA452 /* ClientsViewController_iPhone.xib */; };
+		338299D514F2B736002CA452 /* ClientsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299D314F2B736002CA452 /* ClientsViewController_iPad.xib */; };
 		338299DD14F2B736002CA452 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299DC14F2B736002CA452 /* SenTestingKit.framework */; };
 		338299DE14F2B736002CA452 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AA14F2B736002CA452 /* UIKit.framework */; };
 		338299DF14F2B736002CA452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AC14F2B736002CA452 /* Foundation.framework */; };
 		338299E714F2B736002CA452 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 338299E514F2B736002CA452 /* InfoPlist.strings */; };
 		338299EA14F2B736002CA452 /* ProvationsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299E914F2B736002CA452 /* ProvationsAppTests.m */; };
+		338299F614F2C36A002CA452 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299F414F2C36A002CA452 /* ContactViewController.m */; };
+		338299F714F2C36A002CA452 /* ContactViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299F514F2C36A002CA452 /* ContactViewController_iPhone.xib */; };
+		338299FC14F2C49D002CA452 /* ContactViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338299FB14F2C49D002CA452 /* ContactViewController_iPad.xib */; };
+		33829A0D14F2DAC6002CA452 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33829A0C14F2DAC6002CA452 /* Data.plist */; };
+		33829A1914F2F01E002CA452 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33829A1614F2F01E002CA452 /* image1.jpg */; };
+		33829A1A14F2F01E002CA452 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33829A1714F2F01E002CA452 /* image2.jpg */; };
+		33829A1B14F2F01E002CA452 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33829A1814F2F01E002CA452 /* image3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,34 +52,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3329FC82151C0D3700DA6591 /* PersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonTableViewController.h; path = ../PersonTableViewController.h; sourceTree = "<group>"; };
+		3329FC83151C0D3700DA6591 /* PersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonTableViewController.m; path = ../PersonTableViewController.m; sourceTree = "<group>"; };
+		3329FC88151C222800DA6591 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailViewController.h; path = ../PersonDetailViewController.h; sourceTree = "<group>"; };
+		3329FC89151C222800DA6591 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailViewController.m; path = ../PersonDetailViewController.m; sourceTree = "<group>"; };
+		3329FC8A151C222800DA6591 /* PersonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonDetailViewController.xib; path = ../PersonDetailViewController.xib; sourceTree = "<group>"; };
+		3358F6F314F4398500A4E351 /* ProvationsApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ProvationsApp copy-Info.plist"; path = "/Users/meph/Documents/Projects/ios/Provations/ProvationsApp/ProvationsApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		3358F6F414F44A1100A4E351 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3358F6F514F44A1100A4E351 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		338299A614F2B736002CA452 /* ProvationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338299AA14F2B736002CA452 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		338299AC14F2B736002CA452 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		338299AE14F2B736002CA452 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		338299B214F2B736002CA452 /* ProvationsApp-Info.plist */ = {isa = PBXFileReference; path = "ProvationsApp-Info.plist"; sourceTree = "<group>"; };
+		338299B214F2B736002CA452 /* ProvationsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProvationsApp-Info.plist"; sourceTree = "<group>"; };
 		338299B414F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		338299B614F2B736002CA452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		338299B814F2B736002CA452 /* ProvationsApp-Prefix.pch */ = {isa = PBXFileReference; path = "ProvationsApp-Prefix.pch"; sourceTree = "<group>"; };
-		338299B914F2B736002CA452 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		338299B814F2B736002CA452 /* ProvationsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProvationsApp-Prefix.pch"; sourceTree = "<group>"; };
+		338299B914F2B736002CA452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		338299BA14F2B736002CA452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		338299BC14F2B736002CA452 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		338299BD14F2B736002CA452 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		338299BF14F2B736002CA452 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		338299C114F2B736002CA452 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		338299C314F2B736002CA452 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		338299C414F2B736002CA452 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		338299C614F2B736002CA452 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		338299C814F2B736002CA452 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		338299CB14F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		338299CE14F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
-		338299D114F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		338299D414F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		338299BC14F2B736002CA452 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		338299BD14F2B736002CA452 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		338299BF14F2B736002CA452 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		338299C114F2B736002CA452 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		338299C314F2B736002CA452 /* ClientsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientsViewController.h; sourceTree = "<group>"; };
+		338299C414F2B736002CA452 /* ClientsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientsViewController.m; sourceTree = "<group>"; };
+		338299C614F2B736002CA452 /* clients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clients.png; sourceTree = "<group>"; };
+		338299C814F2B736002CA452 /* clients@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clients@2x.png"; sourceTree = "<group>"; };
+		338299CB14F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutViewController_iPhone.xib; sourceTree = "<group>"; };
+		338299CE14F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutViewController_iPad.xib; sourceTree = "<group>"; };
+		338299D114F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ClientsViewController_iPhone.xib; sourceTree = "<group>"; };
+		338299D414F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ClientsViewController_iPad.xib; sourceTree = "<group>"; };
 		338299DB14F2B736002CA452 /* ProvationsAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvationsAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338299DC14F2B736002CA452 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		338299E414F2B736002CA452 /* ProvationsAppTests-Info.plist */ = {isa = PBXFileReference; path = "ProvationsAppTests-Info.plist"; sourceTree = "<group>"; };
+		338299E414F2B736002CA452 /* ProvationsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProvationsAppTests-Info.plist"; sourceTree = "<group>"; };
 		338299E614F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		338299E814F2B736002CA452 /* ProvationsAppTests.h */ = {isa = PBXFileReference; path = ProvationsAppTests.h; sourceTree = "<group>"; };
+		338299E814F2B736002CA452 /* ProvationsAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvationsAppTests.h; sourceTree = "<group>"; };
 		338299E914F2B736002CA452 /* ProvationsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvationsAppTests.m; sourceTree = "<group>"; };
+		338299F314F2C36A002CA452 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		338299F414F2C36A002CA452 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		338299F514F2C36A002CA452 /* ContactViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController_iPhone.xib; sourceTree = "<group>"; };
+		338299FB14F2C49D002CA452 /* ContactViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController_iPad.xib; sourceTree = "<group>"; };
+		33829A0C14F2DAC6002CA452 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		33829A1614F2F01E002CA452 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		33829A1714F2F01E002CA452 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		33829A1814F2F01E002CA452 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +129,7 @@
 				338299E214F2B736002CA452 /* ProvationsAppTests */,
 				338299A914F2B736002CA452 /* Frameworks */,
 				338299A714F2B736002CA452 /* Products */,
+				3358F6F314F4398500A4E351 /* ProvationsApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,18 +158,10 @@
 			children = (
 				338299B914F2B736002CA452 /* AppDelegate.h */,
 				338299BA14F2B736002CA452 /* AppDelegate.m */,
-				338299BC14F2B736002CA452 /* FirstViewController.h */,
-				338299BD14F2B736002CA452 /* FirstViewController.m */,
-				338299BF14F2B736002CA452 /* first.png */,
-				338299C114F2B736002CA452 /* first@2x.png */,
-				338299C314F2B736002CA452 /* SecondViewController.h */,
-				338299C414F2B736002CA452 /* SecondViewController.m */,
-				338299C614F2B736002CA452 /* second.png */,
-				338299C814F2B736002CA452 /* second@2x.png */,
-				338299CA14F2B736002CA452 /* FirstViewController_iPhone.xib */,
-				338299CD14F2B736002CA452 /* FirstViewController_iPad.xib */,
-				338299D014F2B736002CA452 /* SecondViewController_iPhone.xib */,
-				338299D314F2B736002CA452 /* SecondViewController_iPad.xib */,
+				338299F814F2C38A002CA452 /* About */,
+				338299F914F2C39B002CA452 /* Clients */,
+				338299FD14F2CFF5002CA452 /* Staff */,
+				338299FA14F2C3A8002CA452 /* Contact */,
 				338299B114F2B736002CA452 /* Supporting Files */,
 			);
 			path = ProvationsApp;
@@ -150,6 +170,10 @@
 		338299B114F2B736002CA452 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33829A1C14F2F034002CA452 /* Resources */,
+				33829A0C14F2DAC6002CA452 /* Data.plist */,
+				3358F6F414F44A1100A4E351 /* Person.h */,
+				3358F6F514F44A1100A4E351 /* Person.m */,
 				338299B214F2B736002CA452 /* ProvationsApp-Info.plist */,
 				338299B314F2B736002CA452 /* InfoPlist.strings */,
 				338299B614F2B736002CA452 /* main.m */,
@@ -175,6 +199,65 @@
 				338299E514F2B736002CA452 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		338299F814F2C38A002CA452 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				338299BC14F2B736002CA452 /* AboutViewController.h */,
+				338299BD14F2B736002CA452 /* AboutViewController.m */,
+				338299BF14F2B736002CA452 /* about.png */,
+				338299C114F2B736002CA452 /* about@2x.png */,
+				338299CA14F2B736002CA452 /* AboutViewController_iPhone.xib */,
+				338299CD14F2B736002CA452 /* AboutViewController_iPad.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		338299F914F2C39B002CA452 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				338299C314F2B736002CA452 /* ClientsViewController.h */,
+				338299C414F2B736002CA452 /* ClientsViewController.m */,
+				338299C614F2B736002CA452 /* clients.png */,
+				338299C814F2B736002CA452 /* clients@2x.png */,
+				338299D014F2B736002CA452 /* ClientsViewController_iPhone.xib */,
+				338299D314F2B736002CA452 /* ClientsViewController_iPad.xib */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		338299FA14F2C3A8002CA452 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				338299F314F2C36A002CA452 /* ContactViewController.h */,
+				338299F414F2C36A002CA452 /* ContactViewController.m */,
+				338299F514F2C36A002CA452 /* ContactViewController_iPhone.xib */,
+				338299FB14F2C49D002CA452 /* ContactViewController_iPad.xib */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		338299FD14F2CFF5002CA452 /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				3329FC82151C0D3700DA6591 /* PersonTableViewController.h */,
+				3329FC83151C0D3700DA6591 /* PersonTableViewController.m */,
+				3329FC88151C222800DA6591 /* PersonDetailViewController.h */,
+				3329FC89151C222800DA6591 /* PersonDetailViewController.m */,
+				3329FC8A151C222800DA6591 /* PersonDetailViewController.xib */,
+			);
+			name = Staff;
+			sourceTree = "<group>";
+		};
+		33829A1C14F2F034002CA452 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33829A1614F2F01E002CA452 /* image1.jpg */,
+				33829A1714F2F01E002CA452 /* image2.jpg */,
+				33829A1814F2F01E002CA452 /* image3.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,14 +331,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				338299B514F2B736002CA452 /* InfoPlist.strings in Resources */,
-				338299C014F2B736002CA452 /* first.png in Resources */,
-				338299C214F2B736002CA452 /* first@2x.png in Resources */,
-				338299C714F2B736002CA452 /* second.png in Resources */,
-				338299C914F2B736002CA452 /* second@2x.png in Resources */,
-				338299CC14F2B736002CA452 /* FirstViewController_iPhone.xib in Resources */,
-				338299CF14F2B736002CA452 /* FirstViewController_iPad.xib in Resources */,
-				338299D214F2B736002CA452 /* SecondViewController_iPhone.xib in Resources */,
-				338299D514F2B736002CA452 /* SecondViewController_iPad.xib in Resources */,
+				338299C014F2B736002CA452 /* about.png in Resources */,
+				338299C214F2B736002CA452 /* about@2x.png in Resources */,
+				338299C714F2B736002CA452 /* clients.png in Resources */,
+				338299C914F2B736002CA452 /* clients@2x.png in Resources */,
+				338299CC14F2B736002CA452 /* AboutViewController_iPhone.xib in Resources */,
+				338299CF14F2B736002CA452 /* AboutViewController_iPad.xib in Resources */,
+				338299D214F2B736002CA452 /* ClientsViewController_iPhone.xib in Resources */,
+				338299D514F2B736002CA452 /* ClientsViewController_iPad.xib in Resources */,
+				338299F714F2C36A002CA452 /* ContactViewController_iPhone.xib in Resources */,
+				338299FC14F2C49D002CA452 /* ContactViewController_iPad.xib in Resources */,
+				33829A0D14F2DAC6002CA452 /* Data.plist in Resources */,
+				33829A1914F2F01E002CA452 /* image1.jpg in Resources */,
+				33829A1A14F2F01E002CA452 /* image2.jpg in Resources */,
+				33829A1B14F2F01E002CA452 /* image3.jpg in Resources */,
+				3329FC8C151C222800DA6591 /* PersonDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +382,12 @@
 			files = (
 				338299B714F2B736002CA452 /* main.m in Sources */,
 				338299BB14F2B736002CA452 /* AppDelegate.m in Sources */,
-				338299BE14F2B736002CA452 /* FirstViewController.m in Sources */,
-				338299C514F2B736002CA452 /* SecondViewController.m in Sources */,
+				338299BE14F2B736002CA452 /* AboutViewController.m in Sources */,
+				338299C514F2B736002CA452 /* ClientsViewController.m in Sources */,
+				338299F614F2C36A002CA452 /* ContactViewController.m in Sources */,
+				3358F6F614F44A1100A4E351 /* Person.m in Sources */,
+				3329FC84151C0D3700DA6591 /* PersonTableViewController.m in Sources */,
+				3329FC8B151C222800DA6591 /* PersonDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,36 +418,36 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		338299CA14F2B736002CA452 /* FirstViewController_iPhone.xib */ = {
+		338299CA14F2B736002CA452 /* AboutViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				338299CB14F2B736002CA452 /* en */,
 			);
-			name = FirstViewController_iPhone.xib;
+			name = AboutViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		338299CD14F2B736002CA452 /* FirstViewController_iPad.xib */ = {
+		338299CD14F2B736002CA452 /* AboutViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				338299CE14F2B736002CA452 /* en */,
 			);
-			name = FirstViewController_iPad.xib;
+			name = AboutViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		338299D014F2B736002CA452 /* SecondViewController_iPhone.xib */ = {
+		338299D014F2B736002CA452 /* ClientsViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				338299D114F2B736002CA452 /* en */,
 			);
-			name = SecondViewController_iPhone.xib;
+			name = ClientsViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		338299D314F2B736002CA452 /* SecondViewController_iPad.xib */ = {
+		338299D314F2B736002CA452 /* ClientsViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				338299D414F2B736002CA452 /* en */,
 			);
-			name = SecondViewController_iPad.xib;
+			name = ClientsViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		338299E514F2B736002CA452 /* InfoPlist.strings */ = {
@@ -387,7 +481,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -406,7 +500,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,7 +514,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProvationsApp/ProvationsApp-Prefix.pch";
 				INFOPLIST_FILE = "ProvationsApp/ProvationsApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -431,7 +527,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProvationsApp/ProvationsApp-Prefix.pch";
 				INFOPLIST_FILE = "ProvationsApp/ProvationsApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -489,6 +587,7 @@
 				338299EF14F2B736002CA452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338299F014F2B736002CA452 /* Build configuration list for PBXNativeTarget "ProvationsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +596,7 @@
 				338299F214F2B736002CA452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
