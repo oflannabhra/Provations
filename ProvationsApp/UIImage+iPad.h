@@ -10,4 +10,7 @@
 
 @interface UIImage (UIImage_iPad)
 
++ (UIImage *) imageNamedSmart:(NSString *)name;
+
+
 @end

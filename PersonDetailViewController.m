@@ -19,9 +19,7 @@
 
 - (id)init{
     self = [super init];
-    if (self) {
-
-                
+    if (self) {                
         
     }
     return self;
@@ -32,6 +30,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+
     }
     return self;
 }
@@ -49,6 +48,7 @@
     
     NSString* htmlContentString = [NSString stringWithFormat:
                                    @"<html>"
+                                   "<head><style type='text/css'>h1{color:#00CCFF;}h3{color:#3399FF;}body{background-color:#00113D;color:#FFFFFF;}</style></head>"
                                    "<body>"
                                    "<h1>%@</h1>"
                                    "<h3>%@</h3>"

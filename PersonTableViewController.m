@@ -24,6 +24,7 @@
     if (self) {
         // set tab bar items
         self.title = @"Staff";
+        self.tabBarItem.image = [UIImage imageNamed:@"staff.png"];
         
         self.people = [[NSMutableArray alloc] init];
         // Custom initialization
@@ -167,7 +168,6 @@
     else {
         personDetailViewController = [[PersonDetailViewController alloc] initWithNibName:@"PersonDetailViewController_iPad" bundle:nil];
     }    
-
     personDetailViewController.person = [self.people objectAtIndex:[indexPath row]];
     personDetailViewController.title = personDetailViewController.person.name;
      // ...

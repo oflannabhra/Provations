@@ -7,6 +7,7 @@
 //
 
 #import "ClientsViewController.h"
+#import "UIImage+iPad.h"
 
 @interface ClientsViewController ()
 
@@ -59,8 +60,8 @@
     
     // Iterate over all images, add spacing, then add subview to ScrollView
     for (; ; numImages++) {
-        NSString *imageName = [NSString stringWithFormat:@"image%d.jpg", (numImages + 1)];
-        UIImage *image = [UIImage imageNamed:imageName];
+        NSString *imageName = [NSString stringWithFormat:@"image%d", (numImages + 1)];
+        UIImage *image = [UIImage imageNamedSmart:imageName];
         if (image == nil)
             break;
         UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
@@ -110,6 +111,12 @@
     
     // Use this BOOL to keep from breaking pageControl
     pageControlIsChangingPage = YES;
+}
+
+- (IBAction)selectPage:(id)sender
+{
+    if (!pageControlIsChangingPage){
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

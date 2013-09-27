@@ -34,7 +34,7 @@
     
     // Create ViewControllers
     UIViewController *aboutViewController, *clientsViewController, *contactViewController;
-    PersonTableViewController *personTableViewController = [[PersonTableViewController alloc] init];
+    PersonTableViewController *personTableViewController = [[PersonTableViewController alloc] initWithStyle:(UITableViewStyleGrouped)];
     UINavigationController *staffViewController;
     
     
@@ -52,6 +52,7 @@
         contactViewController = [[ContactViewController alloc] initWithNibName:@"ContactViewController_iPad" bundle: nil];    }
     
     
+    
     // Create tabBarController and set its view Controllers
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:  aboutViewController, 
@@ -59,6 +60,7 @@
                                                                         staffViewController, 
                                                                         contactViewController, 
                                                                         nil];
+    
     
     // Set tabBarController as RootViewController
     self.window.rootViewController = self.tabBarController;

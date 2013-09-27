@@ -19,6 +19,7 @@
 @property (nonatomic, strong) UIPageControl* pageControl;
 
 - (IBAction)changePage:(id)sender;
+- (IBAction)selectPage:(id)sender;
 
 - (void)setupPage;
 

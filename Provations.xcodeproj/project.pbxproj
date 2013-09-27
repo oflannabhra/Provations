@@ -10,6 +10,15 @@
 		3329FC84151C0D3700DA6591 /* PersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3329FC83151C0D3700DA6591 /* PersonTableViewController.m */; };
 		3329FC8B151C222800DA6591 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3329FC89151C222800DA6591 /* PersonDetailViewController.m */; };
 		3329FC8C151C222800DA6591 /* PersonDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3329FC8A151C222800DA6591 /* PersonDetailViewController_iPhone.xib */; };
+		3340FCFF151C77DF00C5DF08 /* UIImage+iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3340FCFE151C77DF00C5DF08 /* UIImage+iPad.m */; };
+		3340FD01151C7FCD00C5DF08 /* staff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3340FD00151C7FCD00C5DF08 /* staff@2x.png */; };
+		3340FD03151C807400C5DF08 /* staff.png in Resources */ = {isa = PBXBuildFile; fileRef = 3340FD02151C807400C5DF08 /* staff.png */; };
+		3340FD06151C82FD00C5DF08 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 3340FD04151C82FD00C5DF08 /* contact.png */; };
+		3340FD07151C82FD00C5DF08 /* contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3340FD05151C82FD00C5DF08 /* contact@2x.png */; };
+		3340FD18151C892F00C5DF08 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 3340FD16151C892F00C5DF08 /* about.png */; };
+		3340FD19151C892F00C5DF08 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3340FD17151C892F00C5DF08 /* about@2x.png */; };
+		3340FD1B151C899300C5DF08 /* provations.png in Resources */ = {isa = PBXBuildFile; fileRef = 3340FD1A151C899200C5DF08 /* provations.png */; };
+		3340FD1D151C95B000C5DF08 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3340FD1C151C95AF00C5DF08 /* MessageUI.framework */; };
 		3358F6F614F44A1100A4E351 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358F6F514F44A1100A4E351 /* Person.m */; };
 		336A839D151C385600E93009 /* adam_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 336A8381151C385600E93009 /* adam_thumb.png */; };
 		336A839E151C385600E93009 /* adam_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 336A8382151C385600E93009 /* adam_thumb@2x.png */; };
@@ -52,6 +61,9 @@
 		336A83D3151C715100E93009 /* image5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 336A83C7151C715100E93009 /* image5@2x.png */; };
 		336A83D4151C715100E93009 /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = 336A83C8151C715100E93009 /* image6.png */; };
 		336A83D5151C715100E93009 /* image6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 336A83C9151C715100E93009 /* image6@2x.png */; };
+		33810AC315292522003FEB86 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33810AC215292522003FEB86 /* Icon.png */; };
+		33810AC515292527003FEB86 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33810AC415292527003FEB86 /* Icon@2x.png */; };
+		33810AC7152926EC003FEB86 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 33810AC6152926EC003FEB86 /* Icon72.png */; };
 		338299AB14F2B736002CA452 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AA14F2B736002CA452 /* UIKit.framework */; };
 		338299AD14F2B736002CA452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AC14F2B736002CA452 /* Foundation.framework */; };
 		338299AF14F2B736002CA452 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338299AE14F2B736002CA452 /* CoreGraphics.framework */; };
@@ -59,8 +71,6 @@
 		338299B714F2B736002CA452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299B614F2B736002CA452 /* main.m */; };
 		338299BB14F2B736002CA452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299BA14F2B736002CA452 /* AppDelegate.m */; };
 		338299BE14F2B736002CA452 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299BD14F2B736002CA452 /* AboutViewController.m */; };
-		338299C014F2B736002CA452 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299BF14F2B736002CA452 /* about.png */; };
-		338299C214F2B736002CA452 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C114F2B736002CA452 /* about@2x.png */; };
 		338299C514F2B736002CA452 /* ClientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338299C414F2B736002CA452 /* ClientsViewController.m */; };
 		338299C714F2B736002CA452 /* clients.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C614F2B736002CA452 /* clients.png */; };
 		338299C914F2B736002CA452 /* clients@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338299C814F2B736002CA452 /* clients@2x.png */; };
@@ -95,6 +105,16 @@
 		3329FC88151C222800DA6591 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailViewController.h; path = ../PersonDetailViewController.h; sourceTree = "<group>"; };
 		3329FC89151C222800DA6591 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailViewController.m; path = ../PersonDetailViewController.m; sourceTree = "<group>"; };
 		3329FC8A151C222800DA6591 /* PersonDetailViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonDetailViewController_iPhone.xib; path = ../PersonDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		3340FCFD151C77DE00C5DF08 /* UIImage+iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iPad.h"; sourceTree = "<group>"; };
+		3340FCFE151C77DF00C5DF08 /* UIImage+iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iPad.m"; sourceTree = "<group>"; };
+		3340FD00151C7FCD00C5DF08 /* staff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "staff@2x.png"; sourceTree = "<group>"; };
+		3340FD02151C807400C5DF08 /* staff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = staff.png; sourceTree = "<group>"; };
+		3340FD04151C82FD00C5DF08 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		3340FD05151C82FD00C5DF08 /* contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact@2x.png"; sourceTree = "<group>"; };
+		3340FD16151C892F00C5DF08 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = "../../../../../../Downloads/graphics for app/logos/about.png"; sourceTree = "<group>"; };
+		3340FD17151C892F00C5DF08 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "about@2x.png"; path = "../../../../../../Downloads/graphics for app/logos/about@2x.png"; sourceTree = "<group>"; };
+		3340FD1A151C899200C5DF08 /* provations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = provations.png; path = "../../../../../../Downloads/graphics for app/logos/provations.png"; sourceTree = "<group>"; };
+		3340FD1C151C95AF00C5DF08 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3358F6F314F4398500A4E351 /* ProvationsApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ProvationsApp copy-Info.plist"; path = "/Users/meph/Documents/Projects/ios/Provations/ProvationsApp/ProvationsApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		3358F6F414F44A1100A4E351 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3358F6F514F44A1100A4E351 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
@@ -139,20 +159,21 @@
 		336A83C7151C715100E93009 /* image5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image5@2x.png"; path = "../image5@2x.png"; sourceTree = "<group>"; };
 		336A83C8151C715100E93009 /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image6.png; path = ../image6.png; sourceTree = "<group>"; };
 		336A83C9151C715100E93009 /* image6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image6@2x.png"; path = "../image6@2x.png"; sourceTree = "<group>"; };
-		338299A614F2B736002CA452 /* ProvationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33810AC215292522003FEB86 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		33810AC415292527003FEB86 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		33810AC6152926EC003FEB86 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
+		338299A614F2B736002CA452 /* Provations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Provations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338299AA14F2B736002CA452 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		338299AC14F2B736002CA452 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		338299AE14F2B736002CA452 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		338299B214F2B736002CA452 /* ProvationsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProvationsApp-Info.plist"; sourceTree = "<group>"; };
+		338299B214F2B736002CA452 /* Provations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Provations-Info.plist"; sourceTree = "<group>"; };
 		338299B414F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		338299B614F2B736002CA452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		338299B814F2B736002CA452 /* ProvationsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProvationsApp-Prefix.pch"; sourceTree = "<group>"; };
+		338299B814F2B736002CA452 /* Provations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Provations-Prefix.pch"; sourceTree = "<group>"; };
 		338299B914F2B736002CA452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		338299BA14F2B736002CA452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		338299BC14F2B736002CA452 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		338299BD14F2B736002CA452 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		338299BF14F2B736002CA452 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
-		338299C114F2B736002CA452 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
 		338299C314F2B736002CA452 /* ClientsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientsViewController.h; sourceTree = "<group>"; };
 		338299C414F2B736002CA452 /* ClientsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientsViewController.m; sourceTree = "<group>"; };
 		338299C614F2B736002CA452 /* clients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clients.png; sourceTree = "<group>"; };
@@ -161,9 +182,9 @@
 		338299CE14F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutViewController_iPad.xib; sourceTree = "<group>"; };
 		338299D114F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ClientsViewController_iPhone.xib; sourceTree = "<group>"; };
 		338299D414F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ClientsViewController_iPad.xib; sourceTree = "<group>"; };
-		338299DB14F2B736002CA452 /* ProvationsAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvationsAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		338299DB14F2B736002CA452 /* ProvationsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvationsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338299DC14F2B736002CA452 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		338299E414F2B736002CA452 /* ProvationsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProvationsAppTests-Info.plist"; sourceTree = "<group>"; };
+		338299E414F2B736002CA452 /* ProvationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProvationsTests-Info.plist"; sourceTree = "<group>"; };
 		338299E614F2B736002CA452 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		338299E814F2B736002CA452 /* ProvationsAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvationsAppTests.h; sourceTree = "<group>"; };
 		338299E914F2B736002CA452 /* ProvationsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvationsAppTests.m; sourceTree = "<group>"; };
@@ -179,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3340FD1D151C95B000C5DF08 /* MessageUI.framework in Frameworks */,
 				338299AB14F2B736002CA452 /* UIKit.framework in Frameworks */,
 				338299AD14F2B736002CA452 /* Foundation.framework in Frameworks */,
 				338299AF14F2B736002CA452 /* CoreGraphics.framework in Frameworks */,
@@ -255,6 +277,7 @@
 		3382999B14F2B736002CA452 = {
 			isa = PBXGroup;
 			children = (
+				33810AC6152926EC003FEB86 /* Icon72.png */,
 				338299B014F2B736002CA452 /* ProvationsApp */,
 				338299E214F2B736002CA452 /* ProvationsAppTests */,
 				338299A914F2B736002CA452 /* Frameworks */,
@@ -266,8 +289,8 @@
 		338299A714F2B736002CA452 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				338299A614F2B736002CA452 /* ProvationsApp.app */,
-				338299DB14F2B736002CA452 /* ProvationsAppTests.octest */,
+				338299A614F2B736002CA452 /* Provations.app */,
+				338299DB14F2B736002CA452 /* ProvationsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,6 +298,7 @@
 		338299A914F2B736002CA452 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3340FD1C151C95AF00C5DF08 /* MessageUI.framework */,
 				338299AA14F2B736002CA452 /* UIKit.framework */,
 				338299AC14F2B736002CA452 /* Foundation.framework */,
 				338299AE14F2B736002CA452 /* CoreGraphics.framework */,
@@ -302,12 +326,14 @@
 			children = (
 				33829A1C14F2F034002CA452 /* Resources */,
 				33829A0C14F2DAC6002CA452 /* Data.plist */,
+				3340FCFD151C77DE00C5DF08 /* UIImage+iPad.h */,
+				3340FCFE151C77DF00C5DF08 /* UIImage+iPad.m */,
 				3358F6F414F44A1100A4E351 /* Person.h */,
 				3358F6F514F44A1100A4E351 /* Person.m */,
-				338299B214F2B736002CA452 /* ProvationsApp-Info.plist */,
+				338299B214F2B736002CA452 /* Provations-Info.plist */,
 				338299B314F2B736002CA452 /* InfoPlist.strings */,
 				338299B614F2B736002CA452 /* main.m */,
-				338299B814F2B736002CA452 /* ProvationsApp-Prefix.pch */,
+				338299B814F2B736002CA452 /* Provations-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -325,7 +351,7 @@
 		338299E314F2B736002CA452 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				338299E414F2B736002CA452 /* ProvationsAppTests-Info.plist */,
+				338299E414F2B736002CA452 /* ProvationsTests-Info.plist */,
 				338299E514F2B736002CA452 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -334,10 +360,11 @@
 		338299F814F2C38A002CA452 /* About */ = {
 			isa = PBXGroup;
 			children = (
+				3340FD16151C892F00C5DF08 /* about.png */,
+				3340FD17151C892F00C5DF08 /* about@2x.png */,
 				338299BC14F2B736002CA452 /* AboutViewController.h */,
 				338299BD14F2B736002CA452 /* AboutViewController.m */,
-				338299BF14F2B736002CA452 /* about.png */,
-				338299C114F2B736002CA452 /* about@2x.png */,
+				3340FD1A151C899200C5DF08 /* provations.png */,
 				338299CA14F2B736002CA452 /* AboutViewController_iPhone.xib */,
 				338299CD14F2B736002CA452 /* AboutViewController_iPad.xib */,
 			);
@@ -362,6 +389,8 @@
 			children = (
 				338299F314F2C36A002CA452 /* ContactViewController.h */,
 				338299F414F2C36A002CA452 /* ContactViewController.m */,
+				3340FD04151C82FD00C5DF08 /* contact.png */,
+				3340FD05151C82FD00C5DF08 /* contact@2x.png */,
 				338299F514F2C36A002CA452 /* ContactViewController_iPhone.xib */,
 				338299FB14F2C49D002CA452 /* ContactViewController_iPad.xib */,
 			);
@@ -373,6 +402,8 @@
 			children = (
 				3329FC82151C0D3700DA6591 /* PersonTableViewController.h */,
 				3329FC83151C0D3700DA6591 /* PersonTableViewController.m */,
+				3340FD00151C7FCD00C5DF08 /* staff@2x.png */,
+				3340FD02151C807400C5DF08 /* staff.png */,
 				3329FC88151C222800DA6591 /* PersonDetailViewController.h */,
 				3329FC89151C222800DA6591 /* PersonDetailViewController.m */,
 				3329FC8A151C222800DA6591 /* PersonDetailViewController_iPhone.xib */,
@@ -384,6 +415,8 @@
 		33829A1C14F2F034002CA452 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				33810AC415292527003FEB86 /* Icon@2x.png */,
+				33810AC215292522003FEB86 /* Icon.png */,
 				336A8380151C381F00E93009 /* Images */,
 				336A837E151C381600E93009 /* Covers */,
 			);
@@ -393,9 +426,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		338299A514F2B736002CA452 /* ProvationsApp */ = {
+		338299A514F2B736002CA452 /* Provations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 338299ED14F2B736002CA452 /* Build configuration list for PBXNativeTarget "ProvationsApp" */;
+			buildConfigurationList = 338299ED14F2B736002CA452 /* Build configuration list for PBXNativeTarget "Provations" */;
 			buildPhases = (
 				338299A214F2B736002CA452 /* Sources */,
 				338299A314F2B736002CA452 /* Frameworks */,
@@ -405,14 +438,14 @@
 			);
 			dependencies = (
 			);
-			name = ProvationsApp;
+			name = Provations;
 			productName = ProvationsApp;
-			productReference = 338299A614F2B736002CA452 /* ProvationsApp.app */;
+			productReference = 338299A614F2B736002CA452 /* Provations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		338299DA14F2B736002CA452 /* ProvationsAppTests */ = {
+		338299DA14F2B736002CA452 /* ProvationsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 338299F014F2B736002CA452 /* Build configuration list for PBXNativeTarget "ProvationsAppTests" */;
+			buildConfigurationList = 338299F014F2B736002CA452 /* Build configuration list for PBXNativeTarget "ProvationsTests" */;
 			buildPhases = (
 				338299D614F2B736002CA452 /* Sources */,
 				338299D714F2B736002CA452 /* Frameworks */,
@@ -424,9 +457,9 @@
 			dependencies = (
 				338299E114F2B736002CA452 /* PBXTargetDependency */,
 			);
-			name = ProvationsAppTests;
+			name = ProvationsTests;
 			productName = ProvationsAppTests;
-			productReference = 338299DB14F2B736002CA452 /* ProvationsAppTests.octest */;
+			productReference = 338299DB14F2B736002CA452 /* ProvationsTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -437,7 +470,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 338299A014F2B736002CA452 /* Build configuration list for PBXProject "ProvationsApp" */;
+			buildConfigurationList = 338299A014F2B736002CA452 /* Build configuration list for PBXProject "Provations" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -449,8 +482,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				338299A514F2B736002CA452 /* ProvationsApp */,
-				338299DA14F2B736002CA452 /* ProvationsAppTests */,
+				338299A514F2B736002CA452 /* Provations */,
+				338299DA14F2B736002CA452 /* ProvationsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -461,8 +494,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				338299B514F2B736002CA452 /* InfoPlist.strings in Resources */,
-				338299C014F2B736002CA452 /* about.png in Resources */,
-				338299C214F2B736002CA452 /* about@2x.png in Resources */,
 				338299C714F2B736002CA452 /* clients.png in Resources */,
 				338299C914F2B736002CA452 /* clients@2x.png in Resources */,
 				338299CC14F2B736002CA452 /* AboutViewController_iPhone.xib in Resources */,
@@ -514,6 +545,16 @@
 				336A83D3151C715100E93009 /* image5@2x.png in Resources */,
 				336A83D4151C715100E93009 /* image6.png in Resources */,
 				336A83D5151C715100E93009 /* image6@2x.png in Resources */,
+				3340FD01151C7FCD00C5DF08 /* staff@2x.png in Resources */,
+				3340FD03151C807400C5DF08 /* staff.png in Resources */,
+				3340FD06151C82FD00C5DF08 /* contact.png in Resources */,
+				3340FD07151C82FD00C5DF08 /* contact@2x.png in Resources */,
+				3340FD18151C892F00C5DF08 /* about.png in Resources */,
+				3340FD19151C892F00C5DF08 /* about@2x.png in Resources */,
+				3340FD1B151C899300C5DF08 /* provations.png in Resources */,
+				33810AC315292522003FEB86 /* Icon.png in Resources */,
+				33810AC515292527003FEB86 /* Icon@2x.png in Resources */,
+				33810AC7152926EC003FEB86 /* Icon72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +597,7 @@
 				3358F6F614F44A1100A4E351 /* Person.m in Sources */,
 				3329FC84151C0D3700DA6591 /* PersonTableViewController.m in Sources */,
 				3329FC8B151C222800DA6591 /* PersonDetailViewController.m in Sources */,
+				3340FCFF151C77DF00C5DF08 /* UIImage+iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,7 +614,7 @@
 /* Begin PBXTargetDependency section */
 		338299E114F2B736002CA452 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 338299A514F2B736002CA452 /* ProvationsApp */;
+			target = 338299A514F2B736002CA452 /* Provations */;
 			targetProxy = 338299E014F2B736002CA452 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -679,11 +721,13 @@
 		338299EE14F2B736002CA452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProvationsApp/ProvationsApp-Prefix.pch";
-				INFOPLIST_FILE = "ProvationsApp/ProvationsApp-Info.plist";
+				GCC_PREFIX_HEADER = "ProvationsApp/Provations-Prefix.pch";
+				INFOPLIST_FILE = "ProvationsApp/Provations-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Provations;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -692,11 +736,14 @@
 		338299EF14F2B736002CA452 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ProvationsApp/ProvationsApp-Prefix.pch";
-				INFOPLIST_FILE = "ProvationsApp/ProvationsApp-Info.plist";
+				GCC_PREFIX_HEADER = "ProvationsApp/Provations-Prefix.pch";
+				INFOPLIST_FILE = "ProvationsApp/Provations-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Provations;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -712,8 +759,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProvationsApp/ProvationsApp-Prefix.pch";
-				INFOPLIST_FILE = "ProvationsAppTests/ProvationsAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ProvationsAppTests/ProvationsTests-Info.plist";
+				PRODUCT_NAME = ProvationsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -729,8 +776,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProvationsApp/ProvationsApp-Prefix.pch";
-				INFOPLIST_FILE = "ProvationsAppTests/ProvationsAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ProvationsAppTests/ProvationsTests-Info.plist";
+				PRODUCT_NAME = ProvationsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -739,7 +786,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		338299A014F2B736002CA452 /* Build configuration list for PBXProject "ProvationsApp" */ = {
+		338299A014F2B736002CA452 /* Build configuration list for PBXProject "Provations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				338299EB14F2B736002CA452 /* Debug */,
@@ -748,7 +795,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		338299ED14F2B736002CA452 /* Build configuration list for PBXNativeTarget "ProvationsApp" */ = {
+		338299ED14F2B736002CA452 /* Build configuration list for PBXNativeTarget "Provations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				338299EE14F2B736002CA452 /* Debug */,
@@ -757,7 +804,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		338299F014F2B736002CA452 /* Build configuration list for PBXNativeTarget "ProvationsAppTests" */ = {
+		338299F014F2B736002CA452 /* Build configuration list for PBXNativeTarget "ProvationsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				338299F114F2B736002CA452 /* Debug */,
